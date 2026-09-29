@@ -31,3 +31,10 @@ curl -X POST 'https://4100.api.green-api.com/waInstance410022751165/setSettings/
   -H 'Content-Type: application/json' \
   -d '{"webhookUrl":"","incomingWebhook":"yes"}'
 ```
+
+## При возникновении внутри приложения проблем с приемом сообщений выполнить:
+```
+curl -X POST 'https://4100.api.green-api.com/waInstance410022751165/setSettings/56beb821b2d04931a59004127008df5b46a686dd84b84569a6' \
+  -H 'Content-Type: application/json' \
+  -d '{"webhookUrl":"","incomingWebhook":"yes"}'
+```
